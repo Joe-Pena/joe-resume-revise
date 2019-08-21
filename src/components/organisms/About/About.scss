@@ -1,0 +1,22 @@
+.about {
+  background-color: #1b1b1b;
+  height: 70rem;
+  width: 100%;
+  color: #e3e3e3;
+
+  & h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 44px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid #e3e3e3;
+  }
+
+  & p {
+    font-size: 26px;
+    text-align: left;
+    padding: 3rem 15rem;
+  }
+}

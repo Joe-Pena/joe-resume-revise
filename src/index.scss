@@ -1,0 +1,25 @@
+$color-background-dark:#1e1e1e;
+$color-font-primary: #E3E3E3;
+$color-highlight-primary: #3C485E;
+$color-highlight-links: #3a627c;
+$color-second-bg: #0f0f0f;
+$color-bg-buvie: #212032;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f3f1eb;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  box-sizing: border-box;
+}

@@ -1,0 +1,39 @@
+.tech {
+  display: flex;
+  flex-direction: row;
+  height: 70rem;
+  width: 100%;
+
+  & h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 38px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .tech-waka {
+    width: 45%;
+    padding: 0 3rem;
+
+    & h1 {
+      color: #1b1b1b;
+      border-bottom: solid #1b1b1b;
+    }
+
+    & figure {
+      margin: 3rem 0;
+    }
+  }
+
+  &-stack {
+    width: 55%;
+    background-color: #e3e3e3;
+
+    & h1 {
+      color: #1b1b1b;
+      border-bottom: solid #1b1b1b;
+    }
+  }
+}
