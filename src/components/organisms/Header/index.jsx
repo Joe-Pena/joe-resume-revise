@@ -5,7 +5,7 @@ import './Header.scss';
 
 const Header = () => (
   <nav className="header">
-    <Link href="/">
+    <Link className="link-logo" href="/">
       <Logo />
     </Link>
     <NavLinks />

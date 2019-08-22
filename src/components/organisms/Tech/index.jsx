@@ -18,6 +18,7 @@ import {
   GraphQLIcon,
   HerokuIcon,
   HTMLIcon,
+  JavaIcon,
   JavascriptIcon,
   JestIcon,
   JQueryIcon,
@@ -77,6 +78,7 @@ const Tech = () => (
         <GraphQLIcon className="tech-stack-icon" data-tip="GraphQL" />
         <HerokuIcon className="tech-stack-icon" data-tip="Heroku" />
         <HTMLIcon className="tech-stack-icon" data-tip="HTML 5" />
+        <JavaIcon className="tech-stack-icon" data-tip="Java" />
         <JavascriptIcon className="tech-stack-icon" data-tip="Javascript" />
         <JestIcon className="tech-stack-icon" data-tip="Jest" />
         <JQueryIcon className="tech-stack-icon" data-tip="JQuery" />

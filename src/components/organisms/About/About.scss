@@ -20,3 +20,16 @@
     padding: 3rem 25rem 5rem 25rem;
   }
 }
+
+@media (max-width: 768px) {
+  .about {
+    & h1 {
+      font-size: 2rem;
+    }
+
+    & p {
+      font-size: 1.6rem;
+      padding: 1rem 5rem 2rem 5rem;
+    }
+  }
+}

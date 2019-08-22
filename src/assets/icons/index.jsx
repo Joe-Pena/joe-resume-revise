@@ -14,6 +14,7 @@ import { ReactComponent as GitHubIcon } from '../svg/github-icon.svg';
 import { ReactComponent as GraphQLIcon } from '../svg/graphql.svg';
 import { ReactComponent as HerokuIcon } from '../svg/heroku.svg';
 import { ReactComponent as HTMLIcon } from '../svg/html-5.svg';
+import { ReactComponent as JavaIcon } from '../svg/java.svg';
 import { ReactComponent as JavascriptIcon } from '../svg/javascript.svg';
 import { ReactComponent as JestIcon } from '../svg/jest.svg';
 import { ReactComponent as JQueryIcon } from '../svg/jquery.svg';
@@ -56,6 +57,7 @@ export {
   GraphQLIcon,
   HerokuIcon,
   HTMLIcon,
+  JavaIcon,
   JavascriptIcon,
   JestIcon,
   JQueryIcon,

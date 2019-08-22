@@ -1,7 +1,6 @@
 .showcase {
   display: flex;
   flex-direction: column;
-  min-height: 110rem;
   padding: 6rem 5rem 2rem 5rem;
 
   & h2 {
@@ -32,6 +31,7 @@
     display: flex;
     flex-direction: row;
     height: 10rem;
+    margin: 0.5rem 0 2rem 0;
 
     .tech-list {
       display: flex;
@@ -68,6 +68,41 @@
         &:hover {
           transform: scale(1.03);
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    padding: 2rem 2rem 0.5rem 2rem;
+
+    & h2 {
+      font-size: 1.8rem;
+      width: 100%;
+    }
+
+    & p {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    & .tech-list {
+      width: 60%;
+
+      & span {
+        font-size: 0.8rem;
+      }
+    }
+
+    & .link-buttons {
+      width: 40%;
+      flex-direction: column;
+
+      & button {
+        height: 2rem;
+        width: 7.5rem;
+        font-size: 0.6rem;
       }
     }
   }

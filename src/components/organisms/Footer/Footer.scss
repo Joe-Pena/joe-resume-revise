@@ -39,3 +39,29 @@
     margin: 3rem 0 0 0;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: 10rem;
+
+    & h2 {
+      font-size: 1.8rem;
+      padding: 0.5rem 0;
+      margin-bottom: 0.5rem;
+    }
+
+    & .footer-links {
+      width: 80%;
+
+      & a {
+        font-size: 0.8rem;
+        text-decoration: underline;
+      }
+    }
+
+    & p {
+      font-size: 0.6rem;
+      margin: 1rem 0 0 0;
+    }
+  }
+}
