@@ -233,8 +233,7 @@ const Projects = () => (
       stack={['Python', 'Pytorch', 'TensorFlow', 'Kivy', 'Keras']}
       gitHubLink="https://github.com/Joe-Pena/AI-Mouse"
     >
-      A simple app that shows you a list of cats and dogs up for adoption all
-      around the USA.
+      An artificially intelligent mouse that can traverse mazes that you create!
     </Showcase>
   </div>
 );
