@@ -20,6 +20,7 @@ import {
   HTMLIcon,
   JavaIcon,
   JavascriptIcon,
+  JekyllIcon,
   JestIcon,
   JQueryIcon,
   JSONIcon,
@@ -81,6 +82,7 @@ const Tech = () => (
         <HTMLIcon className="tech-stack-icon" data-tip="HTML 5" />
         <JavaIcon className="tech-stack-icon" data-tip="Java" />
         <JavascriptIcon className="tech-stack-icon" data-tip="Javascript" />
+        <JekyllIcon className="tech-stack-icon" data-tip="Shopify" />
         <JestIcon className="tech-stack-icon" data-tip="Jest" />
         <JQueryIcon className="tech-stack-icon" data-tip="JQuery" />
         <JSONIcon className="tech-stack-icon" data-tip="JSON" />

@@ -16,6 +16,7 @@ import { ReactComponent as HerokuIcon } from '../svg/heroku.svg';
 import { ReactComponent as HTMLIcon } from '../svg/html-5.svg';
 import { ReactComponent as JavaIcon } from '../svg/java.svg';
 import { ReactComponent as JavascriptIcon } from '../svg/javascript.svg';
+import { ReactComponent as JekyllIcon } from '../svg/jekyll.svg';
 import { ReactComponent as JestIcon } from '../svg/jest.svg';
 import { ReactComponent as JQueryIcon } from '../svg/jquery.svg';
 import { ReactComponent as JSONIcon } from '../svg/json.svg';
@@ -60,6 +61,7 @@ export {
   HTMLIcon,
   JavaIcon,
   JavascriptIcon,
+  JekyllIcon,
   JestIcon,
   JQueryIcon,
   JSONIcon,
