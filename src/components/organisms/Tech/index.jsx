@@ -41,6 +41,7 @@ import {
   SassIcon,
   SequelizeIcon,
   ServerlessIcon,
+  ShopifyIcon,
   TravisCIIcon,
   VSCodeIcon,
 } from '../../../assets/icons';
@@ -101,6 +102,7 @@ const Tech = () => (
         <SassIcon className="tech-stack-icon" data-tip="Sass" />
         <SequelizeIcon className="tech-stack-icon" data-tip="Sequelize" />
         <ServerlessIcon className="tech-stack-icon" data-tip="Serverless" />
+        <ShopifyIcon className="tech-stack-icon" data-tip="Shopify" />
         <TravisCIIcon className="tech-stack-icon" data-tip="TravisCI" />
         <VSCodeIcon className="tech-stack-icon" data-tip="Visual Studio Code" />
       </div>
