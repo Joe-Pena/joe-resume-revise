@@ -1,6 +1,6 @@
 .about {
   background-color: #1b1b1b;
-  height: 70rem;
+  min-height: 75rem;
   width: 100%;
   color: #e3e3e3;
 
@@ -8,7 +8,7 @@
     text-align: center;
     padding: 2rem 0;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 4.4rem;
     width: 50%;
     margin: 0 auto;
     border-bottom: solid #e3e3e3;
@@ -17,6 +17,6 @@
   & p {
     font-size: 26px;
     text-align: left;
-    padding: 3rem 15rem;
+    padding: 3rem 25rem 5rem 25rem;
   }
 }

@@ -1,0 +1,74 @@
+.showcase {
+  display: flex;
+  flex-direction: column;
+  min-height: 110rem;
+  padding: 6rem 5rem 2rem 5rem;
+
+  & h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.4rem;
+    width: 50%;
+    margin: none;
+    align-self: center;
+  }
+
+  & p {
+    text-align: center;
+    padding: 0 0 3rem 0;
+    font-size: 2.2rem;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+    margin-bottom: 3rem;
+  }
+
+  & img {
+    width: 90%;
+    height: 80%;
+    align-self: center;
+  }
+
+  &-last-row {
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+
+    .tech-list {
+      display: flex;
+      margin: 2rem 0 1rem 8%;
+      width: 55%;
+      text-align: left;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      & span {
+        align-self: center;
+        font-size: 1.8rem;
+      }
+    }
+
+    .link-buttons {
+      display: flex;
+      width: 45%;
+      align-items: center;
+      justify-content: space-evenly;
+
+      & button {
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        height: 4rem;
+        width: 15rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        transition: all 0.25s ease-in-out;
+
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+}

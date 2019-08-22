@@ -1,4 +1,41 @@
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #3C485E;
   color: #E3E3E3;
+  height: 20rem;
+
+  & h2 {
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    border-bottom: solid #e3e3e3;
+  }
+
+  & .footer-links {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    justify-content: space-between;
+
+    & a {
+      color: #e3e3e3;
+      text-decoration: none;
+      transition: all 0.25s ease-in-out;
+
+      &:hover {
+        color: #31a4da;
+      }
+    }
+  }
+
+  & p {
+    align-self: center;
+    justify-self: center;
+    margin: 3rem 0 0 0;
+  }
 }

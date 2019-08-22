@@ -1,0 +1,95 @@
+.projects {
+  width: 100%;
+  height: auto;
+  background-color: #333333;
+
+  & h1 {
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 4.4rem;
+    width: 50%;
+    margin: 0 auto 5rem auto;
+    color: #e3e3e3;
+    border-bottom: solid #e3e3e3;
+  }
+
+  .afv {
+    background-color: #431847;
+    color: #bdbdbd;
+
+    & h2 {
+      color: #ffa500;
+    }
+  }
+
+  .buvie {
+    background-color: #212032;
+    color: #8B8B99;
+
+    & h2 {
+      color: #A33944;
+    }
+
+    & button {
+      background-color: #A33944;
+      color: white;
+    }
+  }
+
+  .stud-poker {
+    background-color: #222222;
+    color: #e0e0e0;
+
+    & h2 {
+      color: #d11515;
+    }
+
+    & button {
+      background-color: #d11515;
+      color: #e0e0e0;
+    }
+  }
+
+  .city-main {
+    background-color: #f1f1f1;
+    color: #111111;
+
+    & h2 {
+      color: #20f3a2;
+    }
+
+    & button {
+      background-color: #20f3a2;
+    }
+  }
+
+  .pet-drop {
+    background-color: #dad9d5;
+    color: #111111;
+
+    & h2 {
+      color: #e78ea2;
+    }
+
+    & button {
+      background-color: #478fd5;
+    }
+  }
+
+  .mouse-ai {
+    background-image: linear-gradient(to bottom right,
+        rgba(36, 36, 36, 0.8),
+        rgba(20, 20, 20, 0.8)),
+      url(../../../images/motherboard.jpg);
+    color: #f1f1f1;
+
+    & h2 {
+      color: #33c0b9;
+    }
+
+    & button {
+      background-color: #33c0b9;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout } from '../../layouts';
-import { Welcome, About, Tech } from '../../organisms';
+import { Welcome, About, Tech, Projects } from '../../organisms';
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         <Welcome />
         <About />
         <Tech />
+        <Projects />
       </Layout>
     );
   }
