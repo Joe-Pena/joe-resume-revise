@@ -40,6 +40,7 @@ import { ReactComponent as SequelizeIcon } from '../svg/sequelize.svg';
 import { ReactComponent as ServerlessIcon } from '../svg/serverless.svg';
 import { ReactComponent as ShopifyIcon } from '../svg/shopify.svg';
 import { ReactComponent as TravisCIIcon } from '../svg/travis-ci.svg';
+import { ReactComponent as TypescriptIcon } from '../svg/typescript-icon.svg';
 import { ReactComponent as VSCodeIcon } from '../svg/visual-studio-code.svg';
 
 export {
@@ -85,5 +86,6 @@ export {
   ServerlessIcon,
   ShopifyIcon,
   TravisCIIcon,
+  TypescriptIcon,
   VSCodeIcon,
 };
