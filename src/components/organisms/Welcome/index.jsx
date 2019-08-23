@@ -115,7 +115,7 @@ const particleParams = {
 };
 
 const Welcome = () => (
-  <div className="welcome">
+  <div id="welcome" className="welcome">
     <Particles
       className="welcome-particles"
       height="100%"
