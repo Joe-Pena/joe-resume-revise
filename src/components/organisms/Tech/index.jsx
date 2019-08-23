@@ -107,7 +107,7 @@ const Tech = () => (
         <ServerlessIcon className="tech-stack-icon" data-tip="Serverless" />
         <ShopifyIcon className="tech-stack-icon" data-tip="Shopify" />
         <TravisCIIcon className="tech-stack-icon" data-tip="TravisCI" />
-        <TypescriptIcon className="tech-stack-icon" data-tip="TravisCI" />
+        <TypescriptIcon className="tech-stack-icon" data-tip="TypeScript" />
         <VSCodeIcon className="tech-stack-icon" data-tip="Visual Studio Code" />
       </div>
     </div>
