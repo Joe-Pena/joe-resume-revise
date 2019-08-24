@@ -53,7 +53,7 @@ const Tech = () => (
     <div className="tech-waka">
       <h1>RECENT ACTIVITY</h1>
       <figure>
-        <embed src="https://wakatime.com/share/@JoePena/6bb2b331-bd6a-4c1b-abc0-e0c89dd6ba78.svg"></embed>
+        <embed src="https://wakatime.com/share/@JoePena/d1587b93-fad6-494d-b930-acfe8950e9a7.svg"></embed>
       </figure>
     </div>
     <div className="tech-stack">

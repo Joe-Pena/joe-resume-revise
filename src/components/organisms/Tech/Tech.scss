@@ -24,7 +24,7 @@
 
     & figure {
       margin: 5rem auto;
-      max-width: 80%;
+      padding: 1rem;
     }
   }
 
@@ -69,12 +69,13 @@
       width: 100%;
 
       &-list {
-        padding: 0 2rem 0 2rem;
+        padding: 0;
+        margin: 2rem;
       }
 
       &-icon {
-        height: 5rem;
-        width: 5rem;
+        height: 4rem;
+        width: 4rem;
       }
     }
   }
