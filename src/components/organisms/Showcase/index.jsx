@@ -14,7 +14,7 @@ const Showcase = ({
   <div className={'showcase ' + className}>
     <h2>{project}</h2>
     <p>{children}</p>
-    <img src={image} alt="project" />
+    {image ? <img src={image} alt="project" /> : null}
     <div className="showcase-last-row">
       <div className="tech-list">
         {stack.map((tech, index) => {

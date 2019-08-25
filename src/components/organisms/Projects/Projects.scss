@@ -21,6 +21,28 @@
     & h2 {
       color: #ffa500;
     }
+
+    & img {
+      max-width: 80%;
+    }
+
+    &-placeholder {
+      text-align: left;
+    }
+
+    & .showcase-last-row {
+      margin: none;
+    }
+
+    & .tech-list {
+      width: 100%;
+      margin: none;
+      justify-content: center;
+    }
+
+    & .link-buttons {
+      display: none;
+    }
   }
 
   .buvie {
