@@ -7,8 +7,8 @@ const Footer = () => (
   <div className="footer">
     <h2>Let's get in touch!</h2>
     <div className="footer-links">
-      <Link href="mailto:joepena@protonmail.com" target="_blank">
-        joepena@protonmail.com
+      <Link href="mailto:joe@joepena.io" target="_blank">
+        joe@joepena.io
       </Link>
       <Link href="https://www.linkedin.com/in/joe-pena/" target="_blank">
         LinkedIn
