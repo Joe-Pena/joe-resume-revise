@@ -3,15 +3,19 @@ import './Tech.scss';
 import ReactTooltip from 'react-tooltip';
 import {
   AngularIcon,
+  ArchIcon,
   AWSIcon,
   BabelIcon,
   BashIcon,
   BootStrapIcon,
+  CSharpIcon,
   ChaiIcon,
   CSSIcon,
   Djangoicon,
   DockerIcon,
+  DotNetIcon,
   ExpressIcon,
+  FlaskIcon,
   GatsbyIcon,
   GitIcon,
   GitHubIcon,
@@ -45,7 +49,10 @@ import {
   ShopifyIcon,
   TravisCIIcon,
   TypescriptIcon,
+  UbuntuIcon,
+  VimIcon,
   VSCodeIcon,
+  WindowsIcon,
 } from '../../../assets/icons';
 
 const Tech = () => (
@@ -66,15 +73,19 @@ const Tech = () => (
           effect="float"
         />
         <AngularIcon className="tech-stack-icon" data-tip="Angular" />
+        <ArchIcon className="tech-stack-icon" data-tip="Arch Linux" />
         <AWSIcon className="tech-stack-icon" data-tip="Amazon Web Services" />
         <BabelIcon className="tech-stack-icon" data-tip="Babel" />
         <BashIcon className="tech-stack-icon" data-tip="Bash Shell" />
         <BootStrapIcon className="tech-stack-icon" data-tip="Bootstrap" />
+        <CSharpIcon className="tech-stack-icon" data-tip="C#" />
         <ChaiIcon className="tech-stack-icon" data-tip="Chai" />
         <CSSIcon className="tech-stack-icon" data-tip="CSS 3" />
         <Djangoicon className="tech-stack-icon" data-tip="Django" />
         <DockerIcon className="tech-stack-icon" data-tip="Docker" />
+        <DotNetIcon className="tech-stack-icon" data-tip=".NET" />
         <ExpressIcon className="tech-stack-icon" data-tip="Express" />
+        <FlaskIcon className="tech-stack-icon" data-tip="Flask" />
         <GatsbyIcon className="tech-stack-icon" data-tip="Gatsby" />
         <GitIcon className="tech-stack-icon" data-tip="Git" />
         <GitHubIcon className="tech-stack-icon" data-tip="GitHub" />
@@ -108,7 +119,10 @@ const Tech = () => (
         <ShopifyIcon className="tech-stack-icon" data-tip="Shopify" />
         <TravisCIIcon className="tech-stack-icon" data-tip="TravisCI" />
         <TypescriptIcon className="tech-stack-icon" data-tip="TypeScript" />
+        <UbuntuIcon className="tech-stack-icon" data-tip="Ubuntu Linux" />
+        <VimIcon className="tech-stack-icon" data-tip="Vim" />
         <VSCodeIcon className="tech-stack-icon" data-tip="Visual Studio Code" />
+        <WindowsIcon className="tech-stack-icon" data-tip="Windows" />
       </div>
     </div>
   </div>

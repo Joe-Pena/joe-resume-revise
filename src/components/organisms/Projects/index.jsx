@@ -1,13 +1,11 @@
 import React from 'react';
 import './Projects.scss';
 import { Showcase } from '../index';
-import AFV from '../../../images/afv.png';
 import Buvie from '../../../images/buvie.png';
 import StudPoker from '../../../images/studpoker.png';
 import CityMain from '../../../images/citymain.png';
 import PetDrop from '../../../images/petdrop.png';
 import MouseAI from '../../../images/mouseai.png';
-import Particles from 'react-particles-js';
 
 const Projects = () => (
   <div id="projects" className="projects">

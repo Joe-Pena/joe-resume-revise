@@ -1,6 +1,5 @@
 import React from 'react';
 import './Showcase.scss';
-import Particles from 'react-particles-js';
 
 const Showcase = ({
   project,

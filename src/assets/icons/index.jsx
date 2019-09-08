@@ -1,13 +1,17 @@
 import { ReactComponent as AngularIcon } from '../svg/angular-icon.svg';
+import { ReactComponent as ArchIcon } from '../svg/archlinux.svg';
 import { ReactComponent as AWSIcon } from '../svg/aws.svg';
 import { ReactComponent as BabelIcon } from '../svg/babel.svg';
 import { ReactComponent as BashIcon } from '../svg/bash.svg';
 import { ReactComponent as BootStrapIcon } from '../svg/bootstrap.svg';
+import { ReactComponent as CSharpIcon } from '../svg/c-sharp.svg';
 import { ReactComponent as ChaiIcon } from '../svg/chai.svg';
 import { ReactComponent as CSSIcon } from '../svg/css-3.svg';
 import { ReactComponent as Djangoicon } from '../svg/django.svg';
 import { ReactComponent as DockerIcon } from '../svg/docker.svg';
+import { ReactComponent as DotNetIcon } from '../svg/dotnet.svg';
 import { ReactComponent as ExpressIcon } from '../svg/express.svg';
+import { ReactComponent as FlaskIcon } from '../svg/flask.svg';
 import { ReactComponent as GatsbyIcon } from '../svg/gatsby.svg';
 import { ReactComponent as GitIcon } from '../svg/git-icon.svg';
 import { ReactComponent as GitHubIcon } from '../svg/github-icon.svg';
@@ -41,19 +45,26 @@ import { ReactComponent as ServerlessIcon } from '../svg/serverless.svg';
 import { ReactComponent as ShopifyIcon } from '../svg/shopify.svg';
 import { ReactComponent as TravisCIIcon } from '../svg/travis-ci.svg';
 import { ReactComponent as TypescriptIcon } from '../svg/typescript-icon.svg';
+import { ReactComponent as UbuntuIcon } from '../svg/ubuntu.svg';
+import { ReactComponent as VimIcon } from '../svg/vim.svg';
 import { ReactComponent as VSCodeIcon } from '../svg/visual-studio-code.svg';
+import { ReactComponent as WindowsIcon } from '../svg/windows.svg';
 
 export {
   AngularIcon,
+  ArchIcon,
   AWSIcon,
   BabelIcon,
   BashIcon,
   BootStrapIcon,
+  CSharpIcon,
   ChaiIcon,
   CSSIcon,
   Djangoicon,
   DockerIcon,
+  DotNetIcon,
   ExpressIcon,
+  FlaskIcon,
   GatsbyIcon,
   GitIcon,
   GitHubIcon,
@@ -87,5 +98,8 @@ export {
   ShopifyIcon,
   TravisCIIcon,
   TypescriptIcon,
+  UbuntuIcon,
+  VimIcon,
   VSCodeIcon,
+  WindowsIcon,
 };
