@@ -22,39 +22,21 @@
       color: #ffa500;
     }
 
-    & img {
-      max-width: 80%;
-    }
-
-    &-placeholder {
-      text-align: left;
-    }
-
-    & .showcase-last-row {
-      margin: none;
-    }
-
-    & .tech-list {
-      width: 100%;
-      margin: none;
-      justify-content: center;
-    }
-
-    & .link-buttons {
-      display: none;
+    & button {
+      color: #ffa500;
     }
   }
 
   .buvie {
     background-color: #212032;
-    color: #8B8B99;
+    color: #8b8b99;
 
     & h2 {
-      color: #A33944;
+      color: #a33944;
     }
 
     & button {
-      background-color: #A33944;
+      background-color: #a33944;
       color: white;
     }
   }
@@ -100,9 +82,11 @@
   }
 
   .mouse-ai {
-    background-image: linear-gradient(to bottom right,
+    background-image: linear-gradient(
+        to bottom right,
         rgba(36, 36, 36, 0.8),
-        rgba(20, 20, 20, 0.8)),
+        rgba(20, 20, 20, 0.8)
+      ),
       url(../../../images/motherboard.jpg);
     color: #f1f1f1;
 

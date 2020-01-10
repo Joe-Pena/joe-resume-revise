@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.scss';
 import { Showcase } from '../index';
+import AFV from '../../../images/afv.jpg';
 import Buvie from '../../../images/buvie.png';
 import StudPoker from '../../../images/studpoker.png';
 import CityMain from '../../../images/citymain.png';
@@ -13,6 +14,7 @@ const Projects = () => (
     <Showcase
       project="AMERICA'S FUNNIEST VIDEOS"
       className="afv"
+      image={AFV}
       stack={[
         'React',
         'Gatsby',
@@ -22,18 +24,9 @@ const Projects = () => (
         'ReachEngine',
         'DatoCMS',
       ]}
+      liveLink={'https://afv.com'}
     >
-      An ongoing project set to go live later in 2019, the one and only AFV
-      website completely redesigned!
-      <br />
-      <br />
-      <p className="afv-placeholder">
-        Worked with Gatsby in order to create a more efficient site when a big
-        number of images and thumbnails are being loaded at once, all while
-        maintaining an easy to access CMS integration which allows the content
-        creators the ability to edit information, images, and more, on the site
-        without needing to ever touch code.
-      </p>
+      The new official site for AFV!
     </Showcase>
     <Showcase
       project="BUVIE"
