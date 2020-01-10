@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from '../../atoms';
 import './Footer.scss';
-import Resume from '../../../assets/joe-resume2019.pdf';
+import Resume from '../../../assets/joe-resume.pdf';
 
 const Footer = () => (
   <div className="footer">

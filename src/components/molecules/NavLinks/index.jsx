@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from '../../atoms';
-import Resume from '../../../assets/joe-resume2019.pdf';
+import Resume from '../../../assets/joe-resume.pdf';
 import './NavLinks.scss';
 
 const NavLinks = () => (
