@@ -7,6 +7,7 @@ import { ReactComponent as BootStrapIcon } from '../svg/bootstrap.svg';
 import { ReactComponent as CSharpIcon } from '../svg/c-sharp.svg';
 import { ReactComponent as ChaiIcon } from '../svg/chai.svg';
 import { ReactComponent as CSSIcon } from '../svg/css-3.svg';
+import { ReactComponent as DatoIcon } from '../svg/datocms.svg';
 import { ReactComponent as Djangoicon } from '../svg/django.svg';
 import { ReactComponent as DockerIcon } from '../svg/docker.svg';
 import { ReactComponent as DotNetIcon } from '../svg/dotnet.svg';
@@ -48,6 +49,7 @@ import { ReactComponent as TypescriptIcon } from '../svg/typescript-icon.svg';
 import { ReactComponent as UbuntuIcon } from '../svg/ubuntu.svg';
 import { ReactComponent as VimIcon } from '../svg/vim.svg';
 import { ReactComponent as VSCodeIcon } from '../svg/visual-studio-code.svg';
+import { ReactComponent as VueIcon } from '../svg/vue.svg';
 import { ReactComponent as WindowsIcon } from '../svg/windows.svg';
 
 export {
@@ -60,6 +62,7 @@ export {
   CSharpIcon,
   ChaiIcon,
   CSSIcon,
+  DatoIcon,
   Djangoicon,
   DockerIcon,
   DotNetIcon,
@@ -101,5 +104,6 @@ export {
   UbuntuIcon,
   VimIcon,
   VSCodeIcon,
+  VueIcon,
   WindowsIcon,
 };

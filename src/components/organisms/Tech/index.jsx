@@ -11,6 +11,7 @@ import {
   CSharpIcon,
   ChaiIcon,
   CSSIcon,
+  DatoIcon,
   Djangoicon,
   DockerIcon,
   DotNetIcon,
@@ -52,6 +53,7 @@ import {
   UbuntuIcon,
   VimIcon,
   VSCodeIcon,
+  VueIcon,
   WindowsIcon,
 } from '../../../assets/icons';
 
@@ -64,7 +66,7 @@ const Tech = () => (
       </figure>
     </div>
     <div className="tech-stack">
-      <h1>TECHNOLOGY STACK</h1>
+      <h1>TECH KNOWLEDGE</h1>
       <div className="tech-stack-list">
         <ReactTooltip
           className="tooltip"
@@ -81,6 +83,7 @@ const Tech = () => (
         <CSharpIcon className="tech-stack-icon" data-tip="C#" />
         <ChaiIcon className="tech-stack-icon" data-tip="Chai" />
         <CSSIcon className="tech-stack-icon" data-tip="CSS 3" />
+        <DatoIcon className="tech-stack-icon" data-tip="Dato CMS" />
         <Djangoicon className="tech-stack-icon" data-tip="Django" />
         <DockerIcon className="tech-stack-icon" data-tip="Docker" />
         <DotNetIcon className="tech-stack-icon" data-tip=".NET" />
@@ -122,6 +125,7 @@ const Tech = () => (
         <UbuntuIcon className="tech-stack-icon" data-tip="Ubuntu Linux" />
         <VimIcon className="tech-stack-icon" data-tip="Vim" />
         <VSCodeIcon className="tech-stack-icon" data-tip="Visual Studio Code" />
+        <VueIcon className="tech-stack-icon" data-tip="Vue" />
         <WindowsIcon className="tech-stack-icon" data-tip="Windows" />
       </div>
     </div>
