@@ -18,7 +18,7 @@ const About = () => (
       <br />
       <br />
       Come today, and it's amazing to think about exactly how fast technology
-      has progressed in just a decade alone, and I wanted to be a part of that
+      has progressed in just a decade alone, I wanted to be a part of that
       progress, so here I am, as a Software Engineer, doing what I can, getting
       together with other engineers and building great things with just a
       computer, it's crazy!
