@@ -28,6 +28,14 @@ const Projects = () => (
     >
       The new official site for AFV!
     </Showcase>
+    <section style={{ background: 'red', padding: '0 8rem 3rem 8rem' }}>
+      <h1 style={{ fontSize: 18 }}>NOTICE!!!</h1>
+      <p style={{ fontSize: 14, color: 'white', textAlign: 'center' }}>
+        The projects below may not work as expected due to Heroku changing how
+        their MongoDB plugin works. Will work on it when I have time, but I'm
+        also working on other projects which will be here soon!
+      </p>
+    </section>
     <Showcase
       project="BUVIE"
       className="buvie"
@@ -94,7 +102,8 @@ const Projects = () => (
       Learn all the capital cities in the world! Powered by a spaced repetition
       algorithm.
     </Showcase>
-    <Showcase
+    {/* Petdrop is dropped until API is renewed */}
+    {/* <Showcase
       project="PET-DROP"
       className="pet-drop"
       image={PetDrop}
@@ -104,7 +113,7 @@ const Projects = () => (
     >
       A simple app that shows you a list of cats and dogs up for adoption all
       around the USA.
-    </Showcase>
+    </Showcase> */}
     <Showcase
       project="MouseAI"
       className="mouse-ai"
