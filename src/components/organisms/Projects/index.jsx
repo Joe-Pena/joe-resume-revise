@@ -5,7 +5,7 @@ import AFV from '../../../images/afv.jpg';
 import Buvie from '../../../images/buvie.png';
 import StudPoker from '../../../images/studpoker.png';
 import CityMain from '../../../images/citymain.png';
-import PetDrop from '../../../images/petdrop.png';
+// import PetDrop from '../../../images/petdrop.png';
 import MouseAI from '../../../images/mouseai.png';
 
 const Projects = () => (
