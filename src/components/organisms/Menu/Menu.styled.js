@@ -1,4 +1,6 @@
-.side-menu {
+import styled from 'styled-components';
+
+const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +13,7 @@
   left: 0;
   transition: transform 0.3s ease-in-out;
   width: 100%;
+  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
 
   a {
     font-size: 2rem;
@@ -32,9 +35,9 @@
     }
   }
 
-  @media (max-width: 768px) {
-    .side-menu {
-      display: none;
-    }
+  @media (min-width: 768px) {
+    display: none;
   }
-}
+`;
+
+export default StyledMenu;

@@ -1,13 +1,13 @@
 import React from 'react';
-import './Hamburger.scss';
+import StyledHamburger from './Hamburger.styled';
 
-const Hamburger = () => {
+const Hamburger = ({ open, setOpen }) => {
   return (
-    <button className="burger-button">
+    <StyledHamburger open={open} onClick={() => setOpen(!open)}>
       <div />
       <div />
       <div />
-    </button>
+    </StyledHamburger>
   );
 };
 

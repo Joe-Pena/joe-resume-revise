@@ -1,11 +1,11 @@
 import React from 'react';
 import Resume from '../../../assets/joe-resume.pdf';
 import { Link } from '../../atoms';
-import './Menu.scss';
+import StyledMenu from './Menu.styled';
 
-const Menu = () => {
+const Menu = ({ open, setOpen }) => {
   return (
-    <nav className="side-menu">
+    <StyledMenu open={open}>
       <Link className="nav-link" href="#about">
         ABOUT
       </Link>
@@ -29,7 +29,7 @@ const Menu = () => {
       <Link className="nav-link" target="_blank" href={Resume}>
         RESUME
       </Link>
-    </nav>
+    </StyledMenu>
   );
 };
 
